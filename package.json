@@ -1,0 +1,17 @@
+{
+  "name": "nodejs-zip-lesson7",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/server.ts",
+    "build": "rm -rf build/ && prettier --write src/ && tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "pipe": "^1.1.0",
+    "zlib": "^1.0.5"
+  }
+}
